@@ -1,0 +1,38 @@
+{
+    "name": "shaileshaml/globaldomain",
+    "type": "roundcube-plugin",
+    "description": "Roundcube users wise allow to selected domain for sent emails",
+    "keywords": [
+        "addressbook",
+        "automatic",
+        "collect",
+        "address",
+        "group"
+    ],
+    "homepage": "https://github.com/teonsystems/roundcube-plugin-automatic-addressbook-ng",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Shailesh Mistry",
+            "email": "mistry.dlm@gmail.com",
+            "role": "Lead"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require":
+    {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.7"
+    },
+    "extra":
+    {
+        "roundcube": {
+            "min-version": "1.1.4"
+        }
+    }
+}
